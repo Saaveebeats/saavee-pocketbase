@@ -23,3 +23,5 @@ onRecordAfterCreateSuccess((e) => {
   $app.newMailClient().send(message);
   e.next();
 }, "orders");
+
+fix: disable email hook (render crash fix)
