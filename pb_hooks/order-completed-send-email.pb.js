@@ -66,3 +66,5 @@ onRecordAfterUpdateSuccess((e) => {
   
   e.next();
 }, "orders");
+
+fix: disable email hook (render crash fix)
