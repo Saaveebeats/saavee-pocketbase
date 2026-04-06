@@ -4,7 +4,7 @@ WORKDIR /app
 
 RUN apk add --no-cache unzip ca-certificates
 
-ADD https://github.com/pocketbase/pocketbase/releases/download/v0.22.0/pocketbase_0.22.0_linux_amd64.zip /tmp/pb.zip
+ADD https://github.com/pocketbase/pocketbase/releases/download/v0.20.0/pocketbase_0.20.0_linux_amd64.zip /tmp/pb.zip
 
 RUN unzip /tmp/pb.zip -d /app && rm /tmp/pb.zip
 
