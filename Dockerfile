@@ -13,4 +13,4 @@ COPY pb_hooks /app/pb_hooks
 
 EXPOSE 8090
 
-CMD ["./pocketbase", "serve", "--http=0.0.0.0:8090"]
+CMD ["./pocketbase", "serve", "--http=0.0.0.0:8090", "--dir=/app"]
